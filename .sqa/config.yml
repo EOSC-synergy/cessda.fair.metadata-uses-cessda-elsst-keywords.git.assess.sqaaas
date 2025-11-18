@@ -15,48 +15,48 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords git:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-eggplant-tarsier.sh
-        container: qc.acc_stinky-xanthic-kingfisher
+        - /usr/bin/env sh .sqa/script.zippy-apricot-millipede.sh
+        container: qc.acc_gummy-lilac-weasel
   QC.Doc:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-pear-balinese.sh
-        container: qc.doc_nerdy-salmon-magpie
+        - /usr/bin/env sh .sqa/script.pasty-crimson-bird.sh
+        container: qc.doc_woolly-chestnut-cockroach
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-zucchini-earwig.sh
-        container: qc.doc_queasy-pink-ferret
+        - /usr/bin/env sh .sqa/script.wheezy-tan-chinchilla.sh
+        container: qc.doc_homely-blue-shark
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-emerald-newt.sh
-        container: qc.doc_frumpy-cerulean-urchin
+        - /usr/bin/env sh .sqa/script.baggy-cerulean-newt.sh
+        container: qc.doc_scummy-sapphire-cat
   QC.Lic:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-maroon-fossa.sh
-        container: qc.lic_fuzzy-taupe-salamander
+        - /usr/bin/env sh .sqa/script.lumpy-white-stoat.sh
+        container: qc.lic_hilly-brass-barb
   QC.Met:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-saffron-cattle.sh
-        container: qc.met_chummy-ecru-hare
+        - /usr/bin/env sh .sqa/script.seedy-champagne-rhinoceros.sh
+        container: qc.met_snappy-orchid-havanese
   QC.Sty:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-emerald-sheep.sh
-        container: qc.sty_flimsy-rust-tetra
+        - /usr/bin/env sh .sqa/script.wimpy-teal-quoll.sh
+        container: qc.sty_sickly-amber-beaver
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-razzmatazz-llama.sh
-        container: qc.sty_messy-apricot-cuscus
+        - /usr/bin/env sh .sqa/script.snoopy-teal-slug.sh
+        container: qc.sty_pretty-copper-goose
   QC.Ver:
     repos:
       github.com/cessda/cessda.fair.metadata-uses-cessda-elsst-keywords get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-bistre-mau.sh
-        container: qc.ver_cranky-ecru-echidna
+        - /usr/bin/env sh .sqa/script.boozy-lavender-shark.sh
+        container: qc.ver_foggy-vermilion-hyena
 timeout: 5400
